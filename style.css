@@ -1,0 +1,38 @@
+.main-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallery {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.gallery .image-container .image {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+}
+
+.see-more {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    margin-left: -24px;
+
+}
+
+.button-image-container {
+    position: relative;
+    
+    display: flex;
+}
